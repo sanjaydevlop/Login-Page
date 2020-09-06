@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="100dp"
+        android:paddingLeft="100dp">
+
+        <ImageView
+            android:id="@+id/img_1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            />
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textField2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="20dp">
+
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="Login"
+
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:paddingTop="40dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password? "
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="160dp"
+            android:text="Sign Up!"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Java Android Program to Demonstrate Action Bar in Android
+Java Android Program to Disable the Action Bar in an Activity in Android
+Java Android Program to Hide Title Label of Action Bar in Android
+Java Android to Add Actions in Action Bar in Android
+Java Android Program to Respond to Added Actions in Action Bar in Android
+Java Android Program to Change the Displayed Text alongside the Application Icon at Runtime
+Java Android Program to Change the Background of Action Bar in Android
+Java Android Program to Dim the Software Navigation Button in your Android Application
+Java Android Program to add Action to Home Icon
+Java Android Program to add Action to Home Icon using set the parentActivityName
+Java Android Program to Enable the Split Action Bar
+Java Android Program to Add a Custom View to the ActionBar
+Java Android Program to Demonstrate Action View in Android
+Java Android Program to Demonstrate Share Action Provider in Android
+Java Android Program to Demonstrate Navigation Drawer in Android
+Java Android Program to Demonstrate Navigation Using Fragments in Android
+Java Android Program to Demonstrate adding actions to Navigation Bar in Android
+Java Android Program to Demonstrate Navigation Drawer with Different Fragements in Android
+Java Android Program to Demonstrate Tab Navigation in Android
+Java Android Program to Demonstrate Drop Down Navigaton in Android
+Java Android Program to Demonstrate Contextual Mode in Android
+Java Android Program to Show SMS in Your Phone
+Java Android Program to Display SMS from the Phone Numbers, which are in Your Contacts
+Java Android Programs to Know Your Current Location Using GPS
+Java Android Program to Calculate Distance between two points using Latitude  Longitude
+Java Android that Accepts a Location from the User, Run in the Background, and Notifies the User when he/she is within 1Km from that Location
+Java Android Program to Shows SMS from the phone numbers, which are in your contacts
+Java Android Program to Show Contacts in Your Phone
+Java Android Program to Demonstrate to Receive BroadCast in Android
+Java Android Program to Consume GPS Broad-Cast using BroadCast Receiver
+Java Android Program to Define a Style and Apply to a View
+Java Android Program to Create a Text View with Rounded Corners
+Java Android Program to Demonstrate Button with Rounded Corners
+Java Android Program to Send Message From Service to Activity
+Java Android Program to Send Data From Service to Activity in Android
+Java Android Program to Draw Driving Route on Google Maps in Android
+Java Android Program to Demonstrate Grid View Layout in Android
+Java Android Program to Dem"/>
+
+</LinearLayout>
+</ScrollView>
