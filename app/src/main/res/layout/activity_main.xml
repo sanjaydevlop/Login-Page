@@ -9,10 +9,43 @@
 
 
     <Button
+        android:id="@+id/btn_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/etv_1"
+       android:text="0"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/etv_2"
+        android:text="0"
+        android:layout_height="wrap_content"/>
+    <Button
         android:id="@+id/btn_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="go"
+        android:text="-"
+
+        />
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+
+        />
+  <Button
+        android:id="@+id/btn_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GET"
 
         />
 

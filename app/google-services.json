@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "344035383336",
+    "firebase_url": "https://opboltay-a0bd2.firebaseio.com",
+    "project_id": "opboltay-a0bd2",
+    "storage_bucket": "opboltay-a0bd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344035383336:android:f68ba168fbff0b3b67bd1d",
+        "android_client_info": {
+          "package_name": "com.test.op_boltay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "344035383336-ufrs1hn0le1vf6kiop88enh6s69k9oni.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.test.op_boltay",
+            "certificate_hash": "efdf5264101e6f167ac564736e3b19c93f20bbd5"
+          }
+        },
+        {
+          "client_id": "344035383336-grs5ccel2397tn1utc8otq6tdbtdice2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdj0dAN5_OgNIghZW1tx0ERAdGpexqVOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "344035383336-grs5ccel2397tn1utc8otq6tdbtdice2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
